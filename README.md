@@ -1,6 +1,8 @@
 # gulp-gm-limit [![NPM version][npm-image]][npm-url] [![Downloads][downloads-image]][npm-url] [![Build Status][travis-image]][travis-url] [![Coveralls Status][coveralls-image]][coveralls-url]
 > Limit image sizes with gulp-gm.
 
+Scaling is kept in tact if your image doesn't have the same ratio as your limit.
+
 ## Example
 
 ```javascript
