@@ -15,8 +15,7 @@
     "url": "https://github.com/jsdevel/gulp-gm-limit.git"
   },
   "keywords": [
-    "gulp",
-    "plugin",
+    "gulpplugin",
     "gm",
     "limit",
     "resize"
