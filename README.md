@@ -30,8 +30,8 @@ THE SOFTWARE.
 [npm-url]: https://npmjs.org/package/gulp-gm-limit
 [npm-image]: http://img.shields.io/npm/v/gulp-gm-limit.svg
 
-[travis-url]: https://travis-ci.org/jsdevel/node-gulp-gm-limit
-[travis-image]: http://img.shields.io/travis/jsdevel/node-gulp-gm-limit.svg
+[travis-url]: https://travis-ci.org/jsdevel/gulp-gm-limit
+[travis-image]: http://img.shields.io/travis/jsdevel/gulp-gm-limit.svg
 
-[coveralls-url]: https://coveralls.io/r/jsdevel/node-gulp-gm-limit
-[coveralls-image]: http://img.shields.io/coveralls/jsdevel/node-gulp-gm-limit/master.svg
+[coveralls-url]: https://coveralls.io/r/jsdevel/gulp-gm-limit
+[coveralls-image]: http://img.shields.io/coveralls/jsdevel/gulp-gm-limit/master.svg
