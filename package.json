@@ -1,0 +1,42 @@
+{
+  "name": "gulp-gm-limit",
+  "main": "index.js",
+  "version": "0.0.0",
+  "description": "Limit image sizes with gulp-gm.",
+  "author": "Joseph Spencer",
+  "scripts": {
+    "jshint": "jshint index.js && jshint --config ./test/.jshintrc test",
+    "cover": "istanbul cover _mocha && cat ./coverage/lcov.info | coveralls -v && rm -rf coverage",
+    "pretest": "npm run jshint",
+    "test": "npm run cover"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jsdevel/gulp-gm-limit.git"
+  },
+  "keywords": [
+    "gulp",
+    "plugin",
+    "gm",
+    "limit",
+    "resize"
+  ],
+  "contributors": [],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jsdevel/gulp-gm-limit/issues"
+  },
+  "devDependencies": {
+    "coveralls": "*",
+    "should": "*",
+    "mocha": "*",
+    "jshint": "2.3.0",
+    "istanbul": "*",
+    "vinyl-fs": "*",
+    "event-stream": "",
+    "gulp": "~3.8.1"
+  },
+  "peerDependencies": {
+    "gulp-gm": "*"
+  }
+}
