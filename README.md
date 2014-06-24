@@ -1,7 +1,17 @@
 # gulp-gm-limit [![NPM version][npm-image]][npm-url] [![Downloads][downloads-image]][npm-url] [![Build Status][travis-image]][travis-url] [![Coveralls Status][coveralls-image]][coveralls-url]
 > Limit image sizes with gulp-gm.
 
-##LICENSE
+## Example
+
+```javascript
+var gmLimit = require('gulp-gm-limit');
+
+gulp.src('some/image-100x50.png')
+.pipe(gmLimit(50, 25))
+.pipe(gulp.dest('./dist/')); // => ./dist/some/image-100x50.png is now 50x25px!
+```
+
+## LICENSE
 ``````
 The MIT License (MIT)
 
