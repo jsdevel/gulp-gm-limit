@@ -34,7 +34,8 @@
     "istanbul": "*",
     "vinyl-fs": "*",
     "event-stream": "",
-    "gulp": "~3.8.1"
+    "gulp": "*",
+    "gulp-gm": "*"
   },
   "peerDependencies": {
     "gulp-gm": "*"
